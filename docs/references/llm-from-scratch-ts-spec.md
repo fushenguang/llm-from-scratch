@@ -1,3 +1,7 @@
+---
+doc_type: change-request-greenfield
+schema_version: v1
+---
 # LLM From Scratch — TypeScript Implementation Spec
 **面向 AI Coding Agent 的完备指令文档**
 
