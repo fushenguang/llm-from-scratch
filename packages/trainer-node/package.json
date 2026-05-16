@@ -1,0 +1,16 @@
+{
+  "name": "@llm-from-scratch/trainer-node",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "main": "./dist/main.js",
+  "types": "./dist/main.d.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.json"
+  },
+  "dependencies": {
+    "@llm-from-scratch/core": "workspace:*",
+    "@tensorflow/tfjs-node-gpu": "^4.22.0",
+    "express": "^5.1.0"
+  }
+}
